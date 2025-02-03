@@ -18,9 +18,16 @@ public class Main {
                 {3,4,5}
         };
 //        System.out.println(TwoDim[0][1]);
-        for(int i = 0; i < TwoDim.length; i++){
-            for (int j = 0; j < TwoDim[i].length; j++){
-                System.out.println(TwoDim[i][j]);
+//        for(int i = 0; i < TwoDim.length; i++){
+//            for (int j = 0; j < TwoDim[i].length; j++){
+//                System.out.println(TwoDim[i][j]);
+//            }
+//        }
+
+//        ENHANCED LOOPING THROUGH 2D ARRAY
+        for(int[] innArr: TwoDim){
+            for(int val: innArr){
+                System.out.println(val);
             }
         }
 
